@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="abc.css">
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+              <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <header>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="tag">
+            <i class="fas fa-home fa-2x" id="font-home"></i>
+            <a class="navbar-brand" href="/" id="home">Home</a>
+            
+          
+    
+              <ul class="navbar-nav mr-auto" id="ulist">
+               
+                <li class="nav-item"  >
+                  <a class="nav-link" id="Weather" href="/weather">Weather</a>
+                </li>
+                <li class="nav-item" >
+                    <a class="nav-link"  id="aboutus" href="/about">About Us</a>
+                  </li>  
+               </ul>
+    </header>
+
+    <div id="input-form">
+        <form class="form-inline my-2 my-lg-0"  >
+          <input id="search_city"class="form-control mr-sm-2" type="search" placeholder="Enter City Name" aria-label="Search">
+          <button  id="submit_btn"class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+        
+    <div id="div">
+        <div id="time"><h3>Wednesday            11:11AM</h3></div>
+            <p id="city_name"> Get Output Here...! </p>
+            <div id="tempdiv">
+             <h4><b> <p id='temp'> </p></b></h4>
+              <p id="status"> </p> 
+            </div>
+    </div>  
+
+    <marquee behavior="alternate" id="marquee" scrollamount="5"><h3>Welcome to Our Demo Weatherapp  Site Search Weather Details by City Name</h3> </marquee>
+    
+    <footer class="footer"><h4>Pappu Khan @copyright Weatherapp</h4></footer>
+    <script src="main.js"></script>
+
+</body>
+</html>
